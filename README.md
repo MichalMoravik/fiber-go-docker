@@ -1,6 +1,6 @@
 # Fiber-Go-Docker Template
 
-Template for a simple Fiber-Go-Docker ⚡️-🐀-🐳 service with hot reloading.
+A template for a simple Fiber-Go-Docker ⚡️-🐀-🐳 service with hot reloading.
 
 > Fiber is optional, you can remove the framework and the service will still run.
 
@@ -10,7 +10,7 @@ Template for a simple Fiber-Go-Docker ⚡️-🐀-🐳 service with hot reloadin
 
 1. Use/Pull/Fork this template
 2. Navigate to the folder
-3. Change the name to your project's name in `go.mod` file
+3. Change the name to your project's name in the `go.mod` file
 4. Run `docker-compose up`
 
 > If the port 8089 is already occupied on your machine, go to
@@ -45,9 +45,9 @@ Once the code inside the container changes, you have refresh the server. This
 is what the [Air](https://github.com/cosmtrek/air) library does for you.
 
 Beautiful, now you can run the server locally and each time you change the code
-in your code editor, the container will refresh and the server will reflect
+from your code editor, the container will refresh and the server will reflect
 the changes.
 
-> Removing `volumes` section from the `docker-compose.yml` file will
+> Removing the `volumes` section from the `docker-compose.yml` file will
 malfunction hot reloading.
 
