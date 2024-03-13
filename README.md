@@ -2,7 +2,7 @@
 
 A template for a simple Fiber-Go-Docker ⚡️-🐀-🐳 service with hot reloading.
 
-> Fiber is optional, you can remove the framework and the service will still run.
+> Fiber is optional, you can replace the package
 
 <br />
 
@@ -13,17 +13,17 @@ A template for a simple Fiber-Go-Docker ⚡️-🐀-🐳 service with hot reload
 3. Change the name to your project's name in the `go.mod` file
 4. Run `docker-compose up`
 
-> If the port 8089 is already occupied on your machine, go to
+> If the port 8081 is already occupied on your machine, go to
 the `docker-compose.yml` file and choose a different port
 
 <br />
 
 ## Deployment
 
-- When deploying the code, build the server from `Dockerfile`
-- `Dockerfile.dev` and `docker-compose.yml` should not be used when running
-the deployed server in staging/production
-
+- When deploying the code, build the server from `Dockerfile.serverd`
+- `Dockerfile.serverd.dev` and `docker-compose.yml` should not be used when running
+the deployed server
+- Deployed server should run on 8080 (as mentioned in `Dockerfile.serverd`)
 
 > I suggest deploying the code to Cloud Run using Cloud Build (CI) built from your
 GitHub branch. This is the most straightforward way I've worked with.
