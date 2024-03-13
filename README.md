@@ -4,8 +4,6 @@ A template for a simple Fiber-Go-Docker ⚡️-🐀-🐳 service with hot reload
 
 > Fiber is optional, you can replace the package
 
-<br />
-
 ## Usage Locally
 
 1. Use/Pull/Fork this template
@@ -16,8 +14,6 @@ A template for a simple Fiber-Go-Docker ⚡️-🐀-🐳 service with hot reload
 > If the port 8081 is already occupied on your machine, go to
 the `docker-compose.yml` file and choose a different port
 
-<br />
-
 ## Deployment
 
 - When deploying the code, build the server from `Dockerfile.serverd`
@@ -27,8 +23,6 @@ the deployed server
 
 > I suggest deploying the code to Cloud Run using Cloud Build (CI) built from your
 GitHub branch. This is the most straightforward way I've worked with.
-
-<br />
 
 ## Hot Reloading Explained
 
