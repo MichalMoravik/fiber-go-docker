@@ -1,13 +1,13 @@
 version: "3.8"
 
 services:
-  backend:
+  serverd:
     build:
       context: .
-      dockerfile: Dockerfile.dev
+      dockerfile: Dockerfile.serverd.dev
     ports:
-      - 8089:8089
+      - 8081:8081
     environment:
-      PORT: "8089"
+      PORT: "8081"
     volumes:
       - ./:/app

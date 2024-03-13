@@ -44,10 +44,9 @@ in `docker-compose.yml` file). This is only 50% of the work though.
 Once the code inside the container changes, you have refresh the server. This
 is what the [Air](https://github.com/cosmtrek/air) library does for you.
 
-Beautiful, now you can run the server locally and each time you change the code
+Now you can run the server locally and each time you change the code
 from your code editor, the container will refresh and the server will reflect
 the changes.
 
 > Removing the `volumes` section from the `docker-compose.yml` file will
 malfunction hot reloading.
-
