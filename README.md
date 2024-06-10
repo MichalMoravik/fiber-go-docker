@@ -14,6 +14,8 @@ A template for a simple Fiber-Go-Docker ⚡️-🐀-🐳 service with hot reload
 > If the port 8081 is already occupied on your machine, go to
 the `docker-compose.yml` file and choose a different port
 
+5. Send requests to `http://127.0.0.1:8081/yo`.
+
 ## Deployment
 
 - When deploying the code, build the server from `Dockerfile.serverd`
